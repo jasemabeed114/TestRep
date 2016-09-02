@@ -1,0 +1,52 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vk_share_top_blue_color">
+
+
+    <FrameLayout
+        android:id="@+id/GameView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/vk_share_top_blue_color"
+       />
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--ads:adUnitId="ca-app-pub-3929550233974663/5983415436"-->
+        <!--ads:adSize="SMART_BANNER" />-->
+    <ImageView
+        android:id="@+id/default_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_screen_iphone5"
+        />
+    <Button
+        android:id="@+id/bttn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Test"/>
+
+    <Button
+        android:id="@+id/bttn_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bttn_show"
+        android:visibility="gone"
+        android:text="By"/>
+
+</RelativeLayout>

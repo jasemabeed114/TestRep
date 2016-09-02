@@ -1,0 +1,11 @@
+ladle_on_road.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ladle_on_road
+  rotate: false
+  xy: 0, 0
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1

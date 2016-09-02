@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "354201354484",
+    "project_id": "firebase-speedyroad"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354201354484:android:b9fcb1da701ac2cb",
+        "android_client_info": {
+          "package_name": "com.nicholaschirkevich.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8HB1OczmLB8kU6r0gQ2sgNZfr6HakXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-82375384-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
